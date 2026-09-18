@@ -9,7 +9,7 @@ import {
   User,
   Sparkles,
 } from "lucide-react";
-import Cart from "./Cart";
+import Cart from "./Cart.jsx";
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -106,7 +106,6 @@ const Header = () => {
               <User className="w-5 h-5" />
             </button>
 
-            {/* Separated Cart Component */}
             <Cart />
 
             {/* Mobile menu button */}
